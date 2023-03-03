@@ -98,7 +98,7 @@ nostrum rem voluptatem ab alias quia molestiae ea, libero nihil deserunt. Molest
             <div>
                 <h1>Zesprex
                 </h1>
-                <p>Copyright &copy; 2020</p>
+                <p>Copyright &copy; <span class="year"></span> || Developed by <a href="https://github.com/farhan066" style="color:#fff;"><strong>Farhan</strong></a></p>
             </div>
             <nav>
                 <ul>
@@ -118,5 +118,12 @@ nostrum rem voluptatem ab alias quia molestiae ea, libero nihil deserunt. Molest
 	<!-- Top Button -->
 	<a href="#top" class="top-btn"><i class="fas fa-arrow-up"></i></a>
 
+
+    <!-- ----js---- -->
+    <script>
+        const year = document.querySelector(".year");
+
+        year.innerHTML = new Date().getFullYear()
+    </script>
 </body>
 </html>
