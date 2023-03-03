@@ -22,4 +22,4 @@ To run this project locally, simply download or clone the repository and open th
 Contributions to this project are welcome. If you notice any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
 
-## [Preview](https://zesprex-cloud.netlify.app)
+## [Preview](https://zesprex.netlify.app)
